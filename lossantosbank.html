@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <title>Welcome to LSB0</title>
+  <link rel="stylesheet" href="lossantosbank.css" type="text/css">
+</head>
+<body>
+  <div class="topnav">
+  <a class="active" href="lossantosbank.html">Home</a>
+  <a href="https://www.newsbreak.com/topics/maze-bank">News</a>
+  <a href="https://www.investing.com/charts/stocks-charts">Stock</a>
+  <a href="mazebanknewofficial.py">Banking</a>
+</div>
+  <h1>Welcome to Maze Bank</h1>
+  <!-- Button to open the modal -->
+  <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+  <!-- The Modal (contains the Sign Up form) -->
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">Close</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signup">Sign Up</button>
+        </div>
+        <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+      </div>
+    </form>
+  </div>
+
+
+<img src="mazebank3.jpg" width="500px" height="400px" align="left">
+<img src="mazebanklogo.jpg" width="500px" height="400px" align="right">
+<h1>We Are Maze Bank</h1>
+<p>Our presence is predominant in Southern San Andreas with branches throughout the Los Santos Metropolitan Area. One of our Three Bankers works for the bank.The headquarters of the company, the Maze Bank Tower, is located in Pillbox Hill, Downtown Los Santos. This skyscraper is the tallest building in San Andreas and the West Coast of the United States of America. The company also sponsors the Maze Bank Arena in La Puerta, the city's main stadium, and sponsors the Richards Majestic Productions film Meltdown.</p>
+
+<video width="1500" height="700" align="center" controls>
+  <source src="lossantos.mp4" type="video/mp4">
+  <source src="lossantos.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</body>
+</html>
